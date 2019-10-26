@@ -13,6 +13,7 @@ public class ClientsTest extends TestCase {
     Viaje cuba = new Viaje(1950,1960,2019,deLorean);
     Viaje newYork= new Viaje(1999,2005,2019,giratiempo);
     Viaje tokio = new Viaje(2028,2030,2019,icarus);
+
     public void setUp() {
         hermione.setViaje(londres);
     }
